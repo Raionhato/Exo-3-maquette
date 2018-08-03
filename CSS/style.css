@@ -1,0 +1,111 @@
+/*Ici on modifie le body entier*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/*************************************/
+
+/*Ici on modifie la nav bar*/
+nav{
+    background-color: #330033;
+    overflow: hidden;
+}
+/**********************************/
+
+/*Ici on modifie les parties de la nav bar*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    margin: 0px 0px 0px 50px;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 24px 20px;
+}
+/********************************/
+
+/*Ici on modifie l'effet de la nav bar*/
+li a:hover{
+    background-color: #ff3366;
+}
+/**************************************/
+
+/*Ici on modifie la div du logo*/
+.contener{
+    justify-content: space-around;
+    height: 250px;
+}
+/*******************************/
+
+/*Ici on modifie la div du paragraphe et titre*/
+.zone_1{
+    height: 250px;
+    width: 800px;
+}
+/*************************************************/
+
+/*ici on modifie le titre*/
+h1{
+    padding: 65px 20px 40px 20px;
+    margin: 0;
+    text-align: center;
+}
+/*******************************************/
+
+/*Ici on modifie le paragraphe*/
+p{
+    padding: 5px 0px 0px 40px;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+/*****************************************/
+
+/*ici on modifie le logo*/
+.i1{
+    display: flex;
+    float: right;
+    height: 250px;
+    width: 420px;
+    margin: 0px 200px 0px 0px;
+}
+/****************************************/
+
+/*Ici on modifie la zone des images*/
+.zone_2{
+    height: 400px;
+    width: 100%;
+    background-color: #ff6633;
+}
+/****************************************/
+
+/*Ici on modifie la premiere image*/
+.i2{
+    margin: 60px 120px 0px 280px;
+    height: 280px;
+    width: 450px;
+}
+/******************************************/
+
+/*Ici on modifie la seconde image*/
+.i3{
+    margin:60px 200px 0px 0px;
+    height: 280px;
+    width: 450px;
+}
+/**************************************/
+
+/*Ici on modifie le footer*/
+.zone_3{
+    width: 100%;
+    height: 51px;
+    background-color: #330033;
+    color: #ff6633;
+}
+/***************************************/
